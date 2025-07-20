@@ -174,10 +174,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp Q             &kp W             &kp E  &kp R        &kp T            &kp Y          &kp U        &kp I      &kp O                    &kp P
-&kp A             &kp S             &kp D  &kp F        &kp G            &kp H          &kp J        &kp K      &kp L                    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X             &kp C  &kp V        &kp B            &kp N          &kp M        &kp COMMA  &kp PERIOD               &mt RSHIFT SLASH
-&kp LEFT_SHIFT    &mt LEFT_WIN TAB         &lt 2 SPACE  &mt LCTRL SPACE  &kp BACKSPACE  &lt 1 ENTER             &mt CAPSLOCK LANGUAGE_2  &mt RCTRL LANGUAGE_1
+&kp Q           &kp W             &kp E  &kp R        &kp T            &kp Y          &kp U        &kp I      &kp O          &kp P
+&kp A           &kp S             &kp D  &kp F        &kp G            &kp H          &kp J        &kp K      &kp L          &kp MINUS
+&kp Z           &kp X             &kp C  &kp V        &kp B            &kp N          &kp M        &kp COMMA  &kp PERIOD     &mt RSHIFT SLASH
+&kp LEFT_SHIFT  &mt LEFT_WIN TAB         &lt 2 SPACE  &mt LCTRL SPACE  &kp BACKSPACE  &lt 1 ENTER             &kp RIGHT_ALT  &mt RCTRL LANGUAGE_1
             >;
         };
 
@@ -186,10 +186,10 @@
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
 
             bindings = <
-&mt2 F1 NUMBER_1  &kp F2        &kp F3  &kp F4   &kp F5   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp DELETE
-&kp F6            &kp F7        &kp F8  &kp F9   &kp F10  &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp BACKSPACE
-&kp LEFT_ALT      &trans        &kp F1  &kp F11  &kp F12  &kp C_RW      &kp C_PP      &kp C_FF      &kp C_MUTE    &kp C_VOL_UP
-&kp LEFT_SHIFT    &kp LEFT_WIN          &trans   &trans   &kp DELETE    &trans                      &none         &kp C_VOLUME_DOWN
+&mt2 F1 NUMBER_1  &kp F2        &kp F3  &kp F4   &kp F5   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &kp DELETE
+&kp F6            &kp F7        &kp F8  &kp F9   &kp F10  &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT      &kp BACKSPACE
+&kp LEFT_ALT      &trans        &kp F1  &kp F11  &kp F12  &kp C_RW      &kp C_PP      &kp C_FF      &kp C_MUTE     &kp C_VOL_UP
+&kp LEFT_SHIFT    &kp LEFT_WIN          &trans   &trans   &kp DELETE    &trans                      &kp RIGHT_ALT  &kp C_VOLUME_DOWN
             >;
         };
 
@@ -199,7 +199,7 @@
 &kp NUMBER_1          &kp NUMBER_2       &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp NUMBER_6          &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0     &kp APOSTROPHE    &kp SEMICOLON      &kp UNDERSCORE  &kp DOT               &kp SLASH
 &mt LEFT_SHIFT TILDE  &kp DOUBLE_QUOTES  &kp COLON     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&kp LEFT_SHIFT        &kp LEFT_WIN                     &trans          &trans           &trans            &trans                             &kp DOT               &kp PIPE
+&kp LEFT_SHIFT        &kp LEFT_WIN                     &trans          &trans           &trans            &trans                             &kp RIGHT_ALT         &kp PIPE
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
@@ -213,7 +213,7 @@
 &trans  &trans  &trans  &trans       &trans      &out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3
 &trans  &trans  &trans  &bootloader  &sys_reset  &sys_reset    &bootloader   &bt BT_CLR    &bt BT_CLR_ALL  &trans
 &trans  &trans  &trans  &trans       &trans      &trans        &trans        &trans        &trans          &trans
-&trans  &trans          &trans       &trans      &trans        &mo 6                       &trans          &trans
+&trans  &trans          &trans       &trans      &trans        &mo 6                       &trans          &bt BT_CLR
             >;
         };
 
