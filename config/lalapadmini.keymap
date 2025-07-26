@@ -144,12 +144,6 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
-
-        l3 {
-            bindings = <&mo 3>;
-            key-positions = <33 32>;
-            layers = <3>;
-        };
     };
 
     macros {
