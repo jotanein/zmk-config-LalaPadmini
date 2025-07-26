@@ -212,7 +212,7 @@
             >;
         };
 
-        MOUSE_R_LAYER {
+        MOUSE_D_LAYER {
             bindings = <
 &trans  &trans     &trans  &trans     &trans  &trans  &trans       &mkp MCLK  &trans     &trans
 &trans  &mkp LCLK  &trans  &mkp RCLK  &trans  &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 5
@@ -220,7 +220,7 @@
 &trans  &trans             &mkp LCLK  &trans  &trans  &trans                  &trans     &trans
             >;
 
-            display-name = "mouse_r_layer";
+            display-name = "mouse_d_layer";
         };
 
         MOUSE_R_LAYER {
