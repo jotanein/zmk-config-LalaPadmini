@@ -182,7 +182,7 @@
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp APOSTROPHE    &kp SEMICOLON      &kp UNDERSCORE  &kp DOT               &kp SLASH
 &kp EQUAL       &kp PLUS      &kp MINUS     &kp ASTRK     &kp SLASH     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&kp LEFT_SHIFT  &kp LEFT_WIN                &trans        &trans        &kp RCTRL         &trans                             &kp RIGHT_ALT         &kp PIPE
+&kp LEFT_SHIFT  &kp LEFT_WIN                &trans        &mo 3         &kp RCTRL         &trans                             &kp RIGHT_ALT         &kp PIPE
             >;
 
             sensor-bindings = <&scroll_left_right>, <&scroll_left_right>;
@@ -212,13 +212,15 @@
             >;
         };
 
-        layer_6 {
+        MOUSE_R_LAYER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans          &trans  &trans
+&trans  &trans     &trans  &trans     &trans  &trans  &trans       &mkp MCLK  &trans     &trans
+&trans  &mkp LCLK  &trans  &mkp RCLK  &trans  &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 5
+&trans  &trans     &trans  &trans     &trans  &trans  &mkp MB4     &none      &mkp MB5   &mo 5
+&trans  &trans             &mkp LCLK  &trans  &trans  &trans                  &trans     &trans
             >;
+
+            display-name = "mouse_r_layer";
         };
 
         MOUSE_R_LAYER {
@@ -228,16 +230,6 @@
 &trans  &trans  &trans  &trans     &trans     &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &mo 6
 &trans  &trans  &trans  &trans     &trans     &trans  &mkp MB4     &none      &mkp MB5   &mo 6
 &trans  &trans          &mkp LCLK  &mkp RCLK  &trans  &trans                  &trans     &trans
-            >;
-        };
-
-        SCROLL_R_LAYER {
-            display-name = "scroll_r_layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans  &trans          &trans  &trans
             >;
         };
     };
