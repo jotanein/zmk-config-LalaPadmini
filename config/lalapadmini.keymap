@@ -173,7 +173,7 @@
         NUM {
             display-name = "tertiary_layer";
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET         &kp AMPERSAND      &kp GRAVE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp APOSTROPHE    &kp SEMICOLON      &kp UNDERSCORE  &kp DOT               &kp SLASH
 &kp EQUAL       &kp PLUS      &kp MINUS     &kp ASTRK     &kp SLASH     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &kp LEFT_SHIFT  &kp LEFT_WIN                &trans        &mo 3         &kp RCTRL         &trans                             &kp RIGHT_ALT         &kp PIPE
