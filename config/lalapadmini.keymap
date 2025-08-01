@@ -161,7 +161,7 @@
 &kp Q           &kp W             &kp E  &kp R        &kp T            &kp Y          &kp U        &kp I      &kp O          &kp P
 &kp A           &kp S             &kp D  &kp F        &kp G            &kp H          &kp J        &kp K      &kp L          &kp MINUS
 &kp Z           &kp X             &kp C  &kp V        &kp B            &kp N          &kp M        &kp COMMA  &kp PERIOD     &kp SLASH
-&kp LEFT_SHIFT  &mt LEFT_WIN TAB         &lt 1 SPACE  &mt LCTRL SPACE  &kp BACKSPACE  &lt 2 ENTER             &kp RIGHT_ALT  &kp ENTER
+&kp LEFT_SHIFT  &mt LEFT_WIN TAB         &lt 1 SPACE  &mt LCTRL SPACE  &kp BACKSPACE  &lt 2 ENTER             &kp RIGHT_ALT  &lt 5 ENTER
             >;
         };
 
@@ -202,10 +202,10 @@
 
         MOUSE_D_LAYER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans  &trans       &mkp MCLK  &trans     &trans
-&trans  &trans  &trans  &trans  &trans     &trans  &MACRO_LTAP  &mkp LCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans     &trans  &trans       &trans     &trans     &trans
-&trans  &trans          &trans  &mkp LCLK  &trans  &trans                  &trans     &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &mkp LCLK  &trans  &trans          &trans  &trans
             >;
 
             display-name = "mouse_d_layer";
@@ -214,10 +214,10 @@
         MOUSE_R_LAYER {
             display-name = "mouse_r_layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &mkp LCLK  &trans  &trans          &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans       &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &MACRO_LTAP  &mkp MB1  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans     &trans  &trans       &trans    &trans    &trans
+&trans  &trans          &trans  &mkp LCLK  &trans  &trans                 &trans    &trans
             >;
         };
     };
